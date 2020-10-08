@@ -53,4 +53,4 @@ class ConfigGrab {
 }
 
 $c = new ConfigGrab();
-echo $c->config("app.services.resizer.prefer_format", "значение по умолчанию") . "\n";
+echo $c->config("app.services.resizer.prefer_format", "localhost") . "\n";
